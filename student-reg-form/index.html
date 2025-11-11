@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="parent-div">
+        <h1>Student Registration Form</h1>
+        <form action="">
+            <table>
+                <tr>
+                    <td><label for="roll">Roll number:</label></td>
+                    <td><input class="fullwidth" type="number" name="roll" id="roll" placeholder="Enter your roll number"></td>
+            </tr>
+            <tr>
+                <td><label for="name">Student name:</label></td>
+                <td class="flexbox"><input type="text" class="fullwidth" name="first name" id="name" placeholder="first name"> -
+                    <input type="text" class="fullwidth" name="last name" placeholder="last name">
+                </td>
+            </tr>
+            <tr>
+                <td> <label for="father">Father name:</label></td>
+                <td><input class="fullwidth" type="text" name="father" id="father" placeholder="Enter your father name"></td>
+            </tr>
+            <tr>
+                <td><label for="birth">Date of birth:</label></td>
+                <td><input class="fullwidth" type="date" name="birth" id="birth"></td>
+            </tr>
+            <tr>
+                <td> <label for="number">Mobile number:</label></td>
+                <td><input type="tel" class="fullwidth" name="number" id="number" placeholder="Enter your mobile number"></td>
+            </tr>
+            <tr>
+                <td><label for="id">Email id:</label></td>
+                <td> <input type="email" class="fullwidth" name="id" id="id" placeholder="Enter your Email id"></td>
+            </tr>
+            <tr>
+                <td> <label for="password">Password</label></td>
+                <td><input type="password" class="fullwidth" name="password" id="password" placeholder="Enter your Password"></td>
+            </tr>
+            <tr>
+                <td><label>Gender:</label></td>
+                <td><input type="radio" value="male" name="gender"> male
+                    <input type="radio" value="female" name="gender"> female
+                </td>
+            </tr>
+            <tr>
+                <td><label>Department:</label></td>
+                <td><input type="checkbox" value="CSE" name="departmaent">CSE
+                    <input type="checkbox" value="IT" name="departmaent">IT
+                    <input type="checkbox" value="ECE" name="departmaent">ECE
+                    <input type="checkbox" value="Civil" name="departmaent">Civil
+                    <input type="checkbox" value="Mech" name="departmaent">Mech
+                </td>
+            </tr>
+            <tr>
+                <td> <label for="cources">Courses:</label></td>
+                <td><select name="Courses" class="fullwidth">
+                        <option>-----------------------------Select-Cources------------------------------------
+                        </option>
+                        <option value="MWD">MWD</option>
+                        <option value="DM">DM</option>
+                        <option value="GD">GD</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="student">Student Photo:</label></td>
+                <td><input type="file" name="student" id="student"></td>
+            </tr>
+            <tr>
+                <td> <label for="city">City:</label></td>
+                <td> <input class="fullwidth" type="text" name="city" id="city" placeholder="Enter your city name"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address:</label></td>
+                <td><textarea rows="4" class="fullwidth" name="Adress" id="address" placeholder="Enter your address"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="flex-center"><button class="center" type="submit">Register</button></td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</body>
+
+</html>

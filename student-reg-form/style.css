@@ -1,0 +1,22 @@
+.fullwidth{
+    width: 100%;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+.parent-div{
+    background-color: #ffe4e1;
+    width: 60%;
+    margin: auto;
+    padding: 60px;
+    border: 1px dashed black;
+}
+h1{
+    text-align: center;
+}
