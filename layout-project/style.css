@@ -1,0 +1,64 @@
+:root{
+    --bodybg:#C4EBFA;
+    --headerfooterbg:#03BFB1;
+    --navigationbg:#33C361;
+    --sidebarbg:#6EDB6E;
+    --contentbg:#0F98C6;
+    --sectionbg:#005B92;
+    --textlight:#ffffff;
+}
+body{
+    padding: 20px;
+    background-color: var(--bodybg);
+    flex-direction: column;
+    gap: 20px;
+    color: var(--textlight);
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
+header , footer {
+    padding: 20px;
+    background-color: var(--headerfooterbg);
+    border-radius: 10px;
+}
+nav{
+    padding: 20px;
+    background-color: var(--navigationbg);
+    border-radius: 10px;
+}
+main{
+    gap: 20px;
+    flex-wrap: wrap;
+}
+aside{
+    background-color: var(--sidebarbg);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    min-width: 200px;
+    flex: 1 1 auto;
+}
+.main-content{
+    flex-direction: column;
+    gap: 20px;
+    flex: 3 2 auto;
+    min-width: 400px;
+    min-height: 500px;
+}
+.content{
+    background-color: var(--contentbg);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+.section{
+    background-color: var(--sectionbg);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
